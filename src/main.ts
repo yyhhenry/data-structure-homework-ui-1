@@ -8,6 +8,7 @@ import 'highlight.js/styles/github-dark.css';
 import highlight from '@highlightjs/vue-plugin';
 
 import 'element-plus/theme-chalk/src/index.scss';
+import 'element-plus/theme-chalk/dark/css-vars.css';
 import './assets/main.css';
 hljs.registerLanguage('cpp', cpp);
 hljs.registerLanguage('txt', plaintext);
