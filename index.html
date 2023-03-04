@@ -12,7 +12,7 @@
   <div id="app"></div>
   <script type="module" src="/src/main.ts"></script>
   <script>
-    if (window.location.hostname.endsWith('io')) {
+    if (window.location.hostname.endsWith('io') && !window.location.href.includes('dist')) {
       window.location.href = './dist/';
     }
   </script>

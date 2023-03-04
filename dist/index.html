@@ -14,7 +14,7 @@
   <div id="app"></div>
   
   <script>
-    if (window.location.hostname.endsWith('io')) {
+    if (window.location.hostname.endsWith('io') && !window.location.href.includes('dist')) {
       window.location.href = './dist/';
     }
   </script>
